@@ -36,12 +36,12 @@ const Testimonials = () => {
 	};
 
   return (
-    <div className='flex gap-20 justify-between'>
-      <div className='w-[40%]'>
+    <div className='flex flex-wrap justify-between'>
+      <div className='md:w-[40%] p-2'>
         <p className='text-[#5E6282]'>TESTIMONIALS</p>
         <p className='text-[#14183E] font-bold text-[50px]'>What people say about Us.</p>
       </div>
-      <div className='w-[45%]'>
+      <div className='md:w-[45%]'>
         <img src={testi}/>
         <div className='border w-[70%] p-5 shad rounded-xl'>
           <p>{slider[index].desc}</p><br/>
@@ -51,7 +51,7 @@ const Testimonials = () => {
         <p className='ml-10 font-semibold'>Chris Thomas</p>
         <p className='ml-10'>CEO of Red Button</p>
       </div>
-      <div className='w-[15%] flex-row m-auto'>
+      <div className='md:w-[15%] flex-row m-auto'>
         <img src={up} className='w-12 hover:scale-125 hover:transition-transform' onClick={()=>leftHandler()}/>
         <img src={down} className='w-12 hover:scale-125 hover:transition-transform' onClick={()=>rightHandler()}/>
       </div>

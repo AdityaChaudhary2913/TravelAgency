@@ -9,23 +9,23 @@ const Services = () => {
     <div className='flex-row justify-center items-center'>
       <div className='text-center text-[#5E6282]'>CATEGORY</div>
       <div className='text-center font-bold text-[50px]'>We Offer Best Services</div><br/><br/>
-      <div className='flex gap-20 justify-center items-center p-3 text-[#5E6282] text-center mx-auto'>
-        <div className='p-5 hover:border-2 hover:rounded-lg hover:bg-slate-100'>
+      <div className='flex flex-wrap justify-center items-center p-3 text-[#5E6282] text-center mx-auto'>
+        <div className='p-5 md:w-[25%] hover:border-2 hover:rounded-xl hover:bg-slate-100'>
           <img src={s1} className='mx-auto'/>
           <div>Calculated Weather</div>
           <div>Built Wicket longer admire do barton vanity itself do in it.</div>
         </div>
-        <div className='p-5 hover:border-2 hover:rounded-lg hover:bg-slate-100'>
+        <div className='p-5 md:w-[25%] hover:border-2 hover:rounded-xl hover:bg-slate-100'>
           <img src={s2} className='w-[110px] mx-auto'/>
           <div>Best Flights</div>
           <div>Engrossed listening. Park gate sell they west hard for the.</div>
         </div>
-        <div className='p-5 hover:border-2 hover:rounded-lg hover:bg-slate-100'>
+        <div className='p-5 md:w-[25%] hover:border-2 hover:rounded-xl hover:bg-slate-100'>
           <img src={s3} className='w-[100px] mx-auto'/>
           <div>Local Events</div>
           <div>Barton vanity itself do in it. Preferd to men it engrossed listening. </div>
         </div>
-        <div className='p-5 hover:border-2 hover:rounded-lg hover:bg-slate-100'>
+        <div className='p-5 md:w-[25%] hover:border-2 hover:rounded-xl hover:bg-slate-100'>
           <img src={s4} className='mx-auto'/>
           <div>Customization</div>
           <div>We deliver outsourced aviation services for military customers</div>

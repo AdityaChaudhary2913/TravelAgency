@@ -18,7 +18,7 @@ import tg from "./resources/tg.png"
 
 function App() {
   return (
-    <div className="w-[90%] mt-5 mx-auto relative z-10">
+    <div className="w-[90%] flex-wrap mt-5 mx-auto relative z-10">
       <Navbar className="nav"/>
       <img src={decore} className="absolute -z-10 -top-5 -right-20"/>
       <br/><br/><br/>
@@ -34,7 +34,7 @@ function App() {
       <br/><br/><br/>
       <Testimonials/>
       <br/><br/><br/>
-      <div className="flex justify-between items-center">
+      <div className="flex flex-wrap justify-between items-center">
         <img src={c1} className="hover:scale-125 hover:transition-transform"/>
         <img src={c2} className="hover:scale-125 hover:transition-transform"/>
         <img src={c3} className="hover:scale-125 hover:transition-transform"/>

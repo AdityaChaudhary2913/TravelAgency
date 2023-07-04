@@ -8,7 +8,7 @@ const BookTrip = () => {
   return (
     <div>
       <div className='text-[#5E6282]'>Easy and Fast</div>
-      <div className='flex justify-around items-center'>
+      <div className='flex justify-around items-center flex-wrap'>
         <div className=''>
           <div className='text-[#14183E] text-[50px] font-bold'>Book your next trip in 3 easy steps</div>
           <div className='text-[#5E6282] flex-row'>

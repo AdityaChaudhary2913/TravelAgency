@@ -6,7 +6,7 @@ import play from "../resources/PLAY.jpg"
 const Hero = () => {
   return (
     <div className='flex flex-wrap'>
-      <div className='w-[45%] flex-row'>
+      <div className='md:w-[45%] flex-row'>
         <div className='text-[#DF6951] font-semibold'>BEST DESTINATIONS AROUND THE WORLD</div>
         <div className='text-[#181E4B] font-bold text-[84px]'>Travel, enjoy and live a new and full life</div>
         <div className='text-[#5E6282]'>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</div><br/>
@@ -18,7 +18,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='w-[55%]'>
+      <div className='md:w-[55%] pb-48 pt-20 md:pb-0 md:pt-0'>
         <img src={traveller} className='w-[765px] h-[764px] -mt-20'/>
         <img src={plane} className='-mt-[700px]'/>
         <img src={plane}/>

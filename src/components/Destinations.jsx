@@ -8,8 +8,8 @@ const Destinations = () => {
     <div>
       <div className='text-[#5E6282] text-center'>Top Selling</div>
       <div className='text-[#14183E] font-bold text-[50px] text-center'>Top Destinations</div>
-      <div className='flex justify-evenly gap-2 text-[#5E6282] bg-slate-100'>
-        <div className='flex-row rounded-lg'>
+      <div className='flex justify-evenly flex-wrap text-[#5E6282] mx-auto'>
+        <div className='flex-row md:w-[33%] rounded-lg'>
           <img src={d1} className='grayscale hover:grayscale-0 hover:scale-105 hover:delay-150 hover:transition-transform'/>
           <div className='flex justify-between -mt-32'>
             <p className='ml-10'>Rome, Italy</p>
@@ -17,7 +17,7 @@ const Destinations = () => {
           </div>
           <div className='text-center'>10 Days Trip</div>
         </div>
-        <div>
+        <div className='flex-row md:w-[33%] rounded-lg'>
           <img src={d2} className='grayscale hover:grayscale-0 hover:scale-105 hover:delay-150 hover:transition-transform'/>
           <div className='flex justify-between -mt-32'>
             <p className='ml-10'>London, UK</p>
@@ -25,7 +25,7 @@ const Destinations = () => {
           </div>
           <div className='text-center'>12 Days Trip</div>
         </div>
-        <div>
+        <div className='flex-row md:w-[33%] rounded-lg'>
           <img src={d3} className='grayscale hover:grayscale-0 hover:scale-105 hover:delay-150 hover:transition-transform'/>
           <div className='flex justify-between -mt-32'>
             <p className='ml-10'>Full Europe</p>
