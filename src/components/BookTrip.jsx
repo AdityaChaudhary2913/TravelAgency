@@ -37,10 +37,8 @@ const BookTrip = () => {
             </div>
           </div>
         </div>
-        <div className='border-2 rounded-lg text-[#84829A] bshad'>
-          <div>
-            <img src={bm} className='w-[85%] mx-auto mt-5'/>
-          </div>
+        <div className='border-2 rounded-xl text-[#84829A] bshad p-3'>
+          <img src={bm} className='w-[90%] mx-auto mt-5'/>
           <p className='font-bold ml-4'>Trip to Greece</p>
           <p className='ml-4'>14-29June | by Robbin june</p>
           <p className='ml-4'>24 people going</p>

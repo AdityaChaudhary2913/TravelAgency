@@ -6,7 +6,7 @@ const Contact = () => {
       <p className='text-center text-[35px] text-[#5E6282] w-[60%] mx-auto'>Subscribe to get information, latest news and other interesting offers about Cobham</p><br/>
       <div className='flex justify-center gap-5'>
         <input placeholder='Your Email' className='border-2 rounded-lg w-80 text-center h-10'></input>
-        <div className='bg-[#FF7D68] w-28 p-2 text-base text-center text-white rounded-lg'>Subscribe</div>
+        <div className='bg-[#FF7D68] w-28 p-2 text-base text-center text-white rounded-lg hover:scale-110 hover:transition-transform'>Subscribe</div>
       </div>
     </div>
   )

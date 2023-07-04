@@ -8,13 +8,13 @@ const Navbar = () => {
         <img src={Jadoo} alt="logo" className="object-contain" />
       </div>
       <div className="flex gap-5 md:gap-20">
-        <div className="">Destinations</div>
-        <div className="">Hotels</div>
-        <div className="">Flights</div>
-        <div className="">Bookings</div>
-        <div className="">Login</div>
-        <div className="">Signup</div>
-        <div>EN</div>
+        <div className="hover:scale-105 hover:transition-transform hover:font-bold">Destinations</div>
+        <div className="hover:scale-105 hover:transition-transform hover:font-bold">Hotels</div>
+        <div className="hover:scale-105 hover:transition-transform hover:font-bold">Flights</div>
+        <div className="hover:scale-105 hover:transition-transform hover:font-bold">Bookings</div>
+        <div className="hover:scale-105 hover:transition-transform hover:font-bold">Login</div>
+        <div className="hover:scale-105 hover:transition-transform hover:font-bold">Signup</div>
+        <div className='hover:scale-105 hover:transition-transform hover:font-bold'>EN</div>
       </div>
     </div>
   )

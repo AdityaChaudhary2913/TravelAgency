@@ -35,15 +35,16 @@ function App() {
       <Testimonials/>
       <br/><br/><br/>
       <div className="flex justify-between items-center">
-        <img src={c1}/>
-        <img src={c2}/>
-        <img src={c3}/>
-        <img src={c4}/>
-        <img src={c5}/>
+        <img src={c1} className="hover:scale-125 hover:transition-transform"/>
+        <img src={c2} className="hover:scale-125 hover:transition-transform"/>
+        <img src={c3} className="hover:scale-125 hover:transition-transform"/>
+        <img src={c4} className="hover:scale-125 hover:transition-transform"/>
+        <img src={c5} className="hover:scale-125 hover:transition-transform"/>
       </div>
       <br/><br/><br/>
       <img src={tg} className="absolute right-0"/>
       <Contact/>
+      <img src={dots} className="absolute  w-40 -z-10 -right-10 bottom-40"/>
       <br/><br/><br/>
       <Footer/>
     </div>

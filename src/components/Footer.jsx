@@ -34,9 +34,9 @@ const Footer = () => {
         </div>
         <div className='flex-row justify-between items-center text-center'>
           <div className='flex'>
-            <img src={fb}/>
-            <img src={insta} className='w-14'/>
-            <img src={twitter}/>
+            <img src={fb} className='hover:scale-110 hover:transition-transform'/>
+            <img src={insta} className='w-14 hover:scale-110 hover:transition-transform'/>
+            <img src={twitter} className='hover:scale-110 hover:transition-transform'/>
           </div>
           <p className='text-[#5E6282] font-semibold'>Discover our app</p><br/>
           <div className='flex'>
@@ -46,6 +46,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='text-center font-bold'>All rights reserved@jadoo.co</div>
+      <div className='text-center font-bold'>Handicrafted with ❤️ by Aditya Chaudhary ( 22DCS002 )</div>
     </div>
     
   )

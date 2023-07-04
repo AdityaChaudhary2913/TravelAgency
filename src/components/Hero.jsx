@@ -11,9 +11,9 @@ const Hero = () => {
         <div className='text-[#181E4B] font-bold text-[84px]'>Travel, enjoy and live a new and full life</div>
         <div className='text-[#5E6282]'>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</div><br/>
         <div className='flex gap-10'>
-          <div className='bg-[#F1A501] w-28 p-2 text-sm text-white rounded-lg'>Find out more</div>
+          <div className='bg-[#F1A501] w-28 p-2 text-sm text-white text-center my-auto rounded-lg hover:scale-110 hover:transition-transform'>Find out more</div>
           <div className='flex gap-2 items-center'>
-            <img src={play} className='w-[35px]'/>
+            <img src={play} className='w-[35px] hover:scale-110 hover:transition-transform'/>
             <p>Play Demo</p>
           </div>
         </div>
